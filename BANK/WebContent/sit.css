@@ -1,0 +1,130 @@
+body
+{
+background-image:url(Indian-Rupee.jpg);
+background-size:cover;
+}
+ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+ul li
+{
+float:left;
+width:166px;
+height:40px;
+background-color:#000;
+opacity:.7;
+line-height:40px;
+text-align:center;
+front-size:20px;
+}
+ul li a
+{
+color:#FFF;
+display:block;text-decoration:none;
+}
+ul li a:hover
+{
+background-color:#F00;
+}
+ul li ul li
+{
+display:none;
+}
+ul li:hover ul li
+{
+display:block;
+}
+.containter
+{
+	
+	width:32%;
+	height:450px;
+	margin-top:8%;
+	background:rgba(0,0,0,0.6);
+	border:2px solid #09C;
+}
+.heading
+{
+	text-align:center;
+	padding:10px 10px;
+}
+.heading h1
+{
+	color:blue;
+}
+.registrationbox
+{
+	border:2px solid #CF0;
+	margin:-25px 0px;
+	background:rgba(0,225,0,0.2);
+}
+.registrationbox p
+{
+	margin:0px;
+	padding:0px;
+	front-family:verdana,Geneva,sans-serif;
+	front-size:18px;
+	front-weight:bold;
+	color:#FFF;
+}
+.registrationbox input
+{
+	color:#000;
+	background:rgba(255,255,255,0.8);
+	width:100%;
+	margin-bottom:10px;
+}
+.registrationbox input[type="text"];
+
+.registrationbox input[type="password"]
+ {
+	 border:none;
+	 border-bottom:2.8px solid #000;
+	 outline:none;
+	 height:25px;
+ }
+ .registrationbox input[type="text"]:focus,
+ .registrationbox input[type="password"]:focus
+ {
+   border-bottom:2.8px solid white;
+ }
+ .registrationbox input[type="submit"]
+ {
+	 border:none;
+	 outline:none;
+	 height:40px;
+	 color:#FFF;
+	 background-color:#F36;
+	 width:50%;
+	 margin:5% 25%;
+	 front-size:16px;
+	 
+ }
+ .registrationbox input[type="submit"]:hover
+ {
+	 background-color:#CF3;
+	 front-size:20px;
+	 color:#000;
+ }
+  .registrationbox input[type="reset"]
+ {
+	 border:none;
+	 outline:none;
+	 height:40px;
+	 color:#FFF;
+	 background-color:#F36;
+	 width:50%;
+	 margin:5% 25%;
+	 front-size:16px;
+	 
+ }
+ .registrationbox input[type="reset"]:hover
+ {
+	 background-color:#CF3;
+	 front-size:20px;
+	 color:#000;
+ }
+ 

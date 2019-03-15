@@ -1,0 +1,57 @@
+<meta charset="ISO-8859-1">
+<html>
+<head>
+<link href="sit.css" rel="stylesheet">
+<style>
+p{
+font-size:20px;
+}
+h1{
+font-size:50px;
+background-color:brown;
+}
+h2{
+font-size:30px;
+background-color:brown;
+color:blue;
+}
+
+</style>
+</head>
+<body>
+<h1 style="front-size:100px;color:white"><marquee direction="right">SABKA BANK</marquee></h1>
+<ul>
+	<li><a href="home.html">HOME</a></li>
+     <li><a href="newaccount.html">NEW ACCOUNT</a></li>
+<li><a href="balance.html">BALANCE</a></li>
+  <li><a href="deposit.html">DEPOSIT</a></li>
+  <li><a href="withdraw.html">WITHDRAW</a></li>
+  <li><a href="transfer.html">TRANSFER</a></li>
+<li><a href="closeaccount.html">CLOSE A/C</a></li>
+<li><a href="aboutus.html">ABOUT US</a></li>
+</ul>
+<center>
+<div class="containter">
+<div class="heading"><h2>OPEN ACCOUNT FORM</h2></div>
+<div class="Registrationbox">
+<form method="post" action="addAccount.jsp">
+<p>USER NAME
+<input type="text" placeholder="Enter Your Name " name="username" required/></p>
+<p>PASSWORD
+<input type="password" placeholder="Enter Your Password" name="password" required/></p>
+<p>RE-PASSWORD
+<input type="password" placeholder="Confirm Password" name="repassword" required/></p>
+<p>AMOUNT
+<input type="text" placeholder="Enter Amount"  name="amount" required/></p>
+<p>ADDRESS
+<input type="text" placeholder="Enter Your Address" name="address" required/></p>
+<p>PHONE NO.
+<input type="text" placeholder="Enter Your Phone" name="phone" required/></p>
+<input type="submit" value="SUBMIT"/>
+<input type="reset" value="CLEAR"/>
+</center>
+</form>
+</div>
+</div>
+</body>
+</html>
